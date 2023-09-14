@@ -20,7 +20,7 @@
 
 }
 
-main h2{
+main h1, h2{
     position: relative;
     left: 322px;
     top: 150px;
@@ -56,6 +56,14 @@ main h2{
     height: 83px;
     background-color:#FFFFFF;
 
+}
+
+.sim a {
+    text-decoration: none;
+}
+
+.nao a{
+    text-decoration: none;
 }
 
 .sim p{
