@@ -14,9 +14,9 @@
  
 main img{
     
-     position: absolute;
-     left: 35em;
-     top: 12em;
+    position: absolute;
+    right:25em;
+    top: 2em;
  
  }
  
@@ -32,9 +32,9 @@ main img{
  main h1{
      position: relative;
      display: flex;
-     left: 5.5em;
+     left: 2em;
      display: flex;
-     justify-content: center;
+     justify-content: left;
      bottom: 20px;
      width: 100%;
      height: 113px;
@@ -43,20 +43,14 @@ main img{
      font-size: 70px;
  }
 
- main h2{
+section p{
     position: relative;
-    top: 40px;
-    right: 3.5em;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 113px;
+    left: 2em;
+    font-size: 48px;
     font-family: 'Times New Roman', Times, serif;
-    color: black;
-    font-size: 30px;
+    font-weight: bold;
+    margin-top: 2em;
 }
-
-
 
 
 .butao-juridico{
@@ -75,66 +69,51 @@ main img{
 
 }
 
-/* form{
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    position: relative;
-    top: 27em;
-    margin-top: 10px;
-    text-align: center;
-    
-} */
-
-#formJuridica label{
-
-    position: relative;
-    top: 19em;
-    margin-top: 14px;
-    left: 28em;
-    display: flex;
-    text-align: left;
-    align-items: center;
-    font-family: 'Times New Roman', Times, serif;
-    color: black;
-    font-weight: bold;
-    font-size: 1.3rem;
+form a{
+   
+    text-decoration: none;
 }
 
-#formJuridica input, button{
+form a button{
+    
+}
 
+#formProfessor button{
+    cursor: pointer;
     position: relative;
-    top: 30em;
-    margin-top: 10px;
-    left: 43em;
-    width: 440px;
+    top: 1em;
+    margin-top: 20px;
+    left: 7em;
+    width: 490px;
     height: 66px;
     border-radius: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     text-align: left;
     align-items: center;
     font-family: 'Times New Roman', Times, serif;
-    background-color:white;
+    font-size: 23px; 
+    font-weight: bold;   
 
 }
 
-#formJuridica input, button:focus {
-    border-color: #00EFC1; 
-    box-shadow: #b2ddd5;   
+
+#formProfessor button:hover{
+  background-color: #00EFC1;
+  border-color: #00EFC1;    
 }
 
-form button{
+
+
+/* form button{
     background-color:#00EFC1;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
-    cursor: pointer;
-   
-}
+} */
 
  footer{
     position: relative;
+  
     height: 110px;
     width: 100vw;
     background-color: #00EFC1;
