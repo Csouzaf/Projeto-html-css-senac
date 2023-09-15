@@ -7,10 +7,8 @@
  
  .main-page{
      background-color: #D9D9D9;
-     width: 100vw;
-     height: 100vw;
+     min-height: 100vw;
      overflow-x: hidden;
-     
  }
  
 main img{
@@ -46,11 +44,12 @@ main img{
 
 section p{
     position: relative;
-    left: 1em;
+    left: 2em;
     font-size: 48px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     margin-top: 2em;
+    word-break: break-all;
 }
 
 
@@ -79,12 +78,12 @@ form a button{
     
 }
 
-#formColaborador button{
+#formMatricula input, button{
     cursor: pointer;
     position: relative;
     top: 1em;
     margin-top: 20px;
-    left: 7em;
+    left: 5em;
     width: 490px;
     height: 66px;
     border-radius: 20px;
@@ -99,10 +98,26 @@ form a button{
 }
 
 
-#formColaborador button:hover{
+#formMatricula input::placeholder{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px; 
+    font-weight: bolder;  
+    color: black;
+
+}
+.confirmar{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#formMatricula button:hover{
   background-color: #00EFC1;
   border-color: #00EFC1;    
 }
+
 
 
 
@@ -116,7 +131,7 @@ form a button{
     position: relative;
   
     height: 110px;
-    width: 100vw;
+   
     background-color: #00EFC1;
  }
 
